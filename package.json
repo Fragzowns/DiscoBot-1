@@ -1,27 +1,13 @@
 {
   "name": "DiscoBot",
-  "version": "2.0.0",
-  "description": "DiscoBot | No sevrers because it's trash",
-  "readme": "README.md",
-  "maintainers": [],
-  "author": "",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gaymers-discord/DiscoBot.js"
-  },
-  "license": "GPL-2.0",
-  "dependencies": {
-    "discord.js": "^11.3.0",
-    "dotenv": "^4.0.0",
-    "moment": "^2.20.1",
-    "moment-timezone": "^0.5.14",
-    "splitargs": "^0.0.7"
-  },
-  "engines": {
-    "node": "^9.0.0"
-  },
-  "main": "index.js",
+  "description": "A discord bot that's trash",
+  "version": "1.0.0",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
